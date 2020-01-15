@@ -15,7 +15,7 @@ public class BrowserConfig {
 		driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("http://www.bankrate.com");
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
 		return driver;
 	}
